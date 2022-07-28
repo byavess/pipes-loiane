@@ -1,13 +1,12 @@
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { CamelCasePipe } from './camel-case.pipe';
-import { SettingsService } from './settings.service'
-import { registerLocaleData } from '@angular/common';
-import localePt from '@angular/common/locales/pt';
+//import { SettingsService } from './settings.service'
 import { FiltroArrayPipe } from './filtro-array.pipe';
 import { FitroArrayImpuroPipe } from './fitro-array-impuro.pipe';
 import { ExemplosPipesComponent } from './exemplos-pipes/exemplos-pipes.component';
